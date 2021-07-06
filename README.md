@@ -26,8 +26,17 @@ However, here is the full list:
   - Piezo
   - Two button switches
   - Jumper wires
+  - Resistor (I used a 560 ohm one, but if you want the LCD to be brighter you can use a 220 ohm one.)
 
 ## Circuit Diagram
 
 For the countdown timer, I used the tutorial from tutorial45.com -> https://tutorial45.com/building-an-arduino-countdown-timer/. I then had to change the circuit and code to have switch buttons and a piezo.
+
+Tinkercad diagram: 
+![Pomodoro Timer #2](https://user-images.githubusercontent.com/69446878/124607254-3dece100-dea0-11eb-8c9a-175f9fb85f6d.png) 
+
+Real life picture with a 9v battery: 
+![9v_battery](https://user-images.githubusercontent.com/69446878/124606908-f0707400-de9f-11eb-828a-3f25d4afba4e.JPG) 
+
+## Video
 
