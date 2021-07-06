@@ -40,3 +40,6 @@ Real life picture with a 9v battery:
 
 ## Video
 
+https://www.youtube.com/watch?v=yT0YLvqBNHY 
+
+The video showcases the pomodoro timer in action. 
