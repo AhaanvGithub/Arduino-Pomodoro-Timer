@@ -27,6 +27,7 @@ However, here is the full list:
   - Two button switches
   - Jumper wires
   - Resistor (I used a 560 ohm one, but if you want the LCD to be brighter you can use a 220 ohm one.)
+  - USB cable
   - Arduino IDE (of course!)
 
 ## Circuit Diagram
