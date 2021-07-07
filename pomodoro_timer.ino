@@ -17,11 +17,11 @@ void setup()
  lcd.begin(16,2);// set up the LCD's number of columns and rows
  // initialize inputs and outputs
  pinMode(buttonPin, INPUT); 
- digitalWrite(buttonPin, HIGH);
  pinMode(buttonPin2, INPUT);
- digitalWrite(buttonPin2, HIGH);
  pinMode(piezoPin, OUTPUT);
- Serial.begin(9600);
+ digitalWrite(buttonPin, HIGH); // reads 1 
+ digitalWrite(buttonPin2, HIGH); // reads 1
+ Serial.begin(9600); // this is just for logging
 }
 
 void loop()
