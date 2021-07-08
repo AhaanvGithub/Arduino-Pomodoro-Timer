@@ -69,16 +69,28 @@ void loop()
           M=59;
         }
         if(H<0) // if time runs out, i.e 0 hours, 0 minutes, 0 seconds
-        { 
+        {
+          // code for saying work or break time has ended
+          if (yeet%2 == 0) // if the variable yeet is divisible by 2, work time has ended
+          {
+            lcd.setCursor(1,0);
+            lcd.print("Work  finished"); // add an extra space so it has the same characters as "Pomodoro Timer"
+          }
+          else // if the variable yeet is not divisible by 2, break time has ended
+          {
+            lcd.setCursor(1,0);
+            lcd.print("Break finished");
+            
+          }         
           tone(piezoPin, 261); // make piezo buzz at 261 hertz
           delay(10000); // piezo buzzes for 10 seconds
           noTone(piezoPin); // stop piezo buzzing
-          if (yeet%2 == 0) // if the variable yeet hasn't changed to 3, it must be break time
+          if (yeet%2 == 0) // if the variable yeet is divisible by 2, it must be break time
           {
             H=0; M=5; S=0;
             yeet++; // increase yeet by 1
           }
-          else // if the variable has changed that means it is work time
+          else // if the variable yeet is not divisible by 2 that means it is work time
           {
             H=0; M=25; S=0;
             yeet++; // increase yeet by 1
