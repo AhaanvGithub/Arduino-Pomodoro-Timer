@@ -76,13 +76,14 @@ void loop()
           if (yeet%2 == 0) // if the variable yeet hasn't changed to 3, it must be break time
           {
             H=0; M=5; S=0;
+            yeet++; // increase yeet by 1
           }
           else // if the variable has changed that means it is work time
           {
             H=0; M=25; S=0;
-            yeet=2;
+            yeet++; // increase yeet by 1
           }
-          yeet++; // increase yeet by 1 when the time runs out
+          
         }
         if(M>9) 
         {
