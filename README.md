@@ -37,6 +37,7 @@ For the countdown timer, I used the tutorial from tutorial45.com -> https://tuto
 Tinkercad diagram: 
 ![Pomodoro Timer #2](https://user-images.githubusercontent.com/69446878/124607254-3dece100-dea0-11eb-8c9a-175f9fb85f6d.png) 
 - Note: if you put this in tinkercad, the text will be upside down. If you plan to do it on tinkercad only, just add some wires connecting to their respective pins and flip the LCD -> https://www.youtube.com/watch?v=akIjh0Q1R8I
+
 Real life picture with a 9v battery: 
 ![9v_battery](https://user-images.githubusercontent.com/69446878/124606908-f0707400-de9f-11eb-828a-3f25d4afba4e.JPG) 
 
